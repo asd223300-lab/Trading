@@ -2,9 +2,11 @@ name: RunBot
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 台灣時間 14:00 執行
-  workflow_dispatch:      # 讓你可以手動點擊執行
+    - cron: '0 6 * * *'  # 台灣時間 14:00 (抓台股剛收盤最準)
+  workflow_dispatch:      # 保留手動執行的按鈕
 
+
+# ... 後面維持不變 ...
 jobs:
   check:
     runs-on: ubuntu-latest
