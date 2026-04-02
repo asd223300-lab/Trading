@@ -1,4 +1,4 @@
-name: RunBot
+name: Tbot
 on:
   workflow_dispatch:
 jobs:
