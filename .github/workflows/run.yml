@@ -2,7 +2,7 @@ name: RunBot
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 台灣時間 14:00 (抓台股剛收盤最準)
+    - cron: '30 7 * * *'  # 台灣時間 14:00 (抓台股剛收盤最準)
   workflow_dispatch:      # 保留手動執行的按鈕
 
 
